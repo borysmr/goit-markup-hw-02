@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: #2e2f42;
 }
 
 a {
@@ -62,11 +63,14 @@ h2 {
   letter-spacing: 0.02em;
 }
 
-.header-nav-link:hover {
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-nav-link:active {
   color: #404bbf;
 }
 
-.header-contact-link:hover {
+.header-contact-link:hover,
+.header-contact-link:focus {
   color: #404bbf;
 }
 
@@ -74,7 +78,6 @@ h2 {
   color: #434455;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -84,8 +87,6 @@ h2 {
 
 .section-hero {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 
 .hero-tittle {
@@ -118,8 +119,6 @@ h2 {
 .features-subtittle-text {
   color: #2e2f42;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -143,7 +142,6 @@ h2 {
   color: #434455;
   text-align: center;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -151,8 +149,6 @@ h2 {
 /* PORTFOLIO SECTION */
 
 .section-portfolio {
-  width: 1440px;
-  height: 3300px;
 }
 
 .portfolio-subtittle {
@@ -166,7 +162,6 @@ h2 {
 .portfolio-subtittle-text {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -198,7 +193,6 @@ h2 {
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
