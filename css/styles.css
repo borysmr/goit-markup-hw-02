@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  background-color: #ffffff;
+  color: #434455;
 }
 
 a {
@@ -35,22 +36,22 @@ h2 {
 
 /* HEADER */
 
-.header-logo-iris {
+.header-logo {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.header-logo {
+.header-logo-black {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.66;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -74,6 +75,10 @@ h2 {
   color: #404bbf;
 }
 
+.header-nav-contact {
+  font-style: normal;
+}
+
 .header-contact-link {
   color: #434455;
   font-size: 16px;
@@ -85,7 +90,7 @@ h2 {
 
 /* HERO SECTION */
 
-.section-hero {
+.hero {
   background-color: #2e2f42;
 }
 
@@ -100,7 +105,6 @@ h2 {
 
 .hero-btn {
   background-color: #4d5ae5;
-  border-radius: 4px;
   color: #fff;
   cursor: pointer;
 }
@@ -127,6 +131,10 @@ h2 {
 
 .section-team {
   background-color: #f4f4fd;
+}
+
+.team-list-item {
+  background-color: #ffffff;
 }
 
 .employee-name-subtittle {
