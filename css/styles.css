@@ -20,25 +20,11 @@ h2 {
   text-transform: capitalize;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /* HEADER */
 
 .header-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Releway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -48,7 +34,7 @@ h2 {
 
 .header-logo-black {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: "Releway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -92,6 +78,7 @@ h2 {
 
 .hero {
   background-color: #2e2f42;
+  text-align: center;
 }
 
 .hero-tittle {
@@ -106,7 +93,15 @@ h2 {
 .hero-btn {
   background-color: #4d5ae5;
   color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* FEATURES SECTION */
@@ -121,7 +116,7 @@ h2 {
 }
 
 .features-subtittle-text {
-  color: #2e2f42;
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -131,6 +126,11 @@ h2 {
 
 .section-team {
   background-color: #f4f4fd;
+}
+
+.team-tittle {
+  color: #2e2f42;
+  text-align: center;
 }
 
 .team-list-item {
@@ -156,6 +156,11 @@ h2 {
 
 /* PORTFOLIO SECTION */
 
+.portfolio-tittle {
+  color: #2e2f42;
+  text-align: center;
+}
+
 .portfolio-subtittle {
   color: #2e2f42;
   font-size: 20px;
@@ -176,8 +181,8 @@ h2 {
 }
 
 .footer-logo {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.66;
@@ -185,12 +190,12 @@ h2 {
   text-transform: uppercase;
 }
 
-.footer-logo-iris {
-  color: #4d5ae5;
-  font-family: Raleway;
+.footer-logo-black {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
